@@ -10,11 +10,11 @@ def main():
 
     # input
     random_number = random.randint(0,9)
-    guessed_number = int(input("Guess a number from 0 - 9:"))
+    guessed_number = int(input("Guess a number from 0 - 9: "))
 
     # process and output
     if guessed_number == random_number:
-        print("\nYou guessed right.")
+        print("\nYou guessed correctly.")
     else:
          print("\nIncorrect, the number was {}.".format(random_number))
 
